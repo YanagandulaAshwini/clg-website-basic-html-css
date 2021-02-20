@@ -1,0 +1,114 @@
+body{
+    font-family: 'Tangerine', serif;
+    margin: 0;
+}
+header{
+    background-color: rgb(235, 179, 212);
+    color: black;
+    display:flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;      
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 2.5em;
+
+}
+ul li{
+    display: inline;  
+    font-size: 2em;
+    padding: 9px;
+}
+.hero-unit
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.hero-unit img
+{
+    display: flex;
+    width: 100vw;  
+}
+.hero-unit-caption
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 3em;
+    position: absolute;  
+}
+.hero-unit-caption a
+{
+    color: darkblue;
+    display: block;
+    font-size: 0.4em;
+    margin: auto;
+    text-decoration: none;
+    display: flex;
+}
+.hero-unit-caption h1{
+    color:whitesmoke; 
+}
+.paper-section{
+    display: flex;
+    justify-content:space-around;
+    margin:30px 20px;
+}
+.paper{
+    border:1px solid navajowhite;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 10px rgb(175, 175, 173);
+    padding: 10px 10px;  
+}
+.paper img{
+    height: 30vh;
+    width: 20vw;  
+}
+h1{
+    font-size: 2em;
+    text-align: center;  
+}
+.paper1-section{
+    display: flex;
+    justify-content:space-around;
+    margin:20px 20px;
+    text-align: center;
+}
+.paper1{
+    border:1px solid rgb(243, 214, 172);
+    border-radius: 10px;
+    font-size: 5ex; 
+    height: 30%;
+    padding: 10px 15px;
+}   
+.paper1 img ,b h2{
+    height: 40vh;
+    width: 30vw;
+    
+}
+.paper1 b h2{
+    border-radius:5px ;
+    height:30%;
+    padding: 10px 15px;  
+}
+footer{
+    background-color: rgb(123, 225, 233);
+    color: black;
+    display: flex;   
+    font-size: 1.5em;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+  
+}
+
+ footer img{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+     width: 4vmin;
+ }
